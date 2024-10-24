@@ -1,0 +1,54 @@
+/* navbar.css */
+
+/* Navbar container */
+.navbar {
+    background-color: #fff; /* Dark background for the navbar */
+    width: 100%; /* Full width */
+    position: fixed; /* Fix to the top */
+    top: 0; /* Position at the top */
+    z-index: 1000; /* Make sure it's above other content */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* flex-direction: row; */
+}
+.btn{
+    color: white !important;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: #000; /* White color for the links */
+    padding: 10px 15px; /* Padding for links */
+}
+
+/* Navbar links on hover */
+.navbar-nav .nav-link:hover {
+    color: #4f4f42; /* Change color on hover */
+}
+
+/* Navbar brand */
+.navbar-brand {
+    color: #000; /* White color for the brand */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* Navbar brand on hover */
+.navbar-brand:hover {
+    color: #1e1e1d; /* Change color on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column; /* Stack nav items on smaller screens */
+    }
+}
+
+/* Body padding to prevent content overlap with fixed navbar */
+body {
+    padding-top: 70px; /* Adjust this based on your navbar height */
+}
