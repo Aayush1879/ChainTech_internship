@@ -1,4 +1,5 @@
-User Authentication and Information Management System
+User Authentication and Information Management System: 
+
 This project is a React application. It provides user authentication functionality, allowing users to register, log in, view their personal information, and update their details. The application utilizes MongoDB for data storage.
 
 Features
