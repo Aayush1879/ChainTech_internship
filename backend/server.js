@@ -10,7 +10,7 @@ const JWT_SECRET = process.env.SECRET;
 // Middleware
 app.use(cors({
     origin: 'http://localhost:5173', // React app is running on this port
-    credentials: true, // This allows cookies and other credentials to be sent
+    credentials: true, 
 }));
 app.use(bodyParser.json());
 
@@ -102,7 +102,7 @@ app.put('/user', async (req, res) => {
     
 
 
-// Start server
+
 app.listen(5000, () => {
     console.log(`Server running on http://localhost:5000`);
 });
